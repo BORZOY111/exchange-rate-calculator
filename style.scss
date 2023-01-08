@@ -9,12 +9,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  margin: 0;
   font-family: Poppins, sans-serif;
   overflow: hidden;
   .main {
-    max-height: 95%;
-    border: transparent;
+    // max-height: 95%;
+    // border: transparent;
+    width: auto;
+    max-width: 900px;
+    padding: 20px 30px;
     box-shadow: 0 9px 45px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     display: flex;
@@ -22,7 +26,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 2rem;
-    padding: 3rem 3rem 0 3rem;
+    // padding: 3rem 3rem 0 3rem;
     h1 {
       text-align: center;
     }
