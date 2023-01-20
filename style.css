@@ -80,6 +80,9 @@ body {
   body {
     align-items: flex-start;
   }
+  .main {
+    margin-bottom: 3rem;
+  }
   .main img {
     width: 7rem;
     height: auto;
