@@ -14,10 +14,9 @@ body {
   font-family: Poppins, sans-serif;
   overflow: hidden;
   .main {
-    // max-height: 95%;
-    // border: transparent;
-    width: auto;
-    max-width: 900px;
+    // width: auto;
+    // max-width: 900px;
+    // max-height: 70%;
     padding: 20px 30px;
     box-shadow: 0 9px 45px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -25,8 +24,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 2rem;
-    // padding: 3rem 3rem 0 3rem;
+    margin: 1rem 2rem;
     h1 {
       text-align: center;
     }
@@ -76,6 +74,15 @@ body {
         align-items: center;
         justify-content: space-between;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    min-height: 70vh;
+    .main {
+      margin: 1rem 1rem 6rem 1rem;
     }
   }
 }

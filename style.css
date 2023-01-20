@@ -15,8 +15,6 @@ body {
   overflow: hidden;
 }
 body .main {
-  width: auto;
-  max-width: 900px;
   padding: 20px 30px;
   box-shadow: 0 9px 45px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
@@ -24,7 +22,7 @@ body .main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 2rem;
+  margin: 1rem 2rem;
 }
 body .main h1 {
   text-align: center;
@@ -75,4 +73,13 @@ body .main .currency .swap-rate-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    min-height: 70vh;
+  }
+  body .main {
+    margin: 1rem 1rem 6rem 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
