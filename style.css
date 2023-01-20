@@ -79,7 +79,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .main {
-    margin: 5rem 1rem;
+    margin: 1rem 1rem 6rem 1rem;
   }
   .main img {
     width: 7rem;
