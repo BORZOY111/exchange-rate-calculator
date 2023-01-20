@@ -14,7 +14,9 @@ body {
   font-family: Poppins, sans-serif;
   overflow: hidden;
 }
-body .main {
+.main {
+  width: auto;
+  max-width: 900px;
   padding: 20px 30px;
   box-shadow: 0 9px 45px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
@@ -24,13 +26,13 @@ body .main {
   justify-content: center;
   margin: 1rem 2rem;
 }
-body .main h1 {
+.main h1 {
   text-align: center;
 }
-body .main p {
+.main p {
   text-align: center;
 }
-body .main .btn {
+.btn {
   background: rgb(62, 62, 62);
   color: white;
   cursor: pointer;
@@ -40,36 +42,36 @@ body .main .btn {
   border: none;
   margin-bottom: 2rem;
 }
-body .main .btn:hover {
+.btn:hover {
   background: rgb(85, 85, 85);
   color: white;
 }
-body .main .btn:active {
+.btn:active {
   transform: scale(95%);
 }
-body .main img {
+.main img {
   width: 10rem;
   height: auto;
 }
-body .main .currency {
+.currency {
   padding: 3rem 0;
   display: flex;
   align-items: space-between;
 }
-body .main .currency .box {
+.box {
   background: transparent;
   border-radius: 5px;
   border: solid rgb(59, 59, 59) 2px;
   color: rgb(0, 0, 0);
 }
-body .main .currency input {
+.currency input {
   width: 100%;
   border: 0;
   background: transparent;
   font-size: 30px;
   text-align: right;
 }
-body .main .currency .swap-rate-container {
+.swap-rate-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -79,7 +81,8 @@ body .main .currency .swap-rate-container {
   body {
     min-height: 70vh;
   }
-  body .main {
-    margin: 1rem 1rem 6rem 1rem;
+  .main {
+    margin: 1rem 1rem 8rem 1rem;
+    padding-bottom: 0;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
